@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy | Uni Companion</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* REUSING SAME CSS VARIABLES AND BASE STYLES AS INDEX.HTML FOR CONSISTENCY */
+    :root {
+      --primary: #6366f1;
+      --bg: #f8fafc;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --header-glass: rgba(255, 255, 255, 0.85);
+      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: var(--text-main); line-height: 1.7; }
+    
+    header {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--header-glass); backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      padding: 1rem 10%; display: flex; justify-content: space-between; align-items: center;
+    }
+    header h1 { font-size: 1.25rem; font-weight: 800; color: var(--primary); }
+    nav a { margin-left: 2rem; text-decoration: none; color: var(--text-muted); font-weight: 500; font-size: 0.9rem; }
+
+    .content-container { max-width: 850px; margin: 60px auto; padding: 0 20px; }
+    
+    .policy-card {
+      background: white;
+      padding: 50px;
+      border-radius: 24px;
+      box-shadow: var(--shadow-md);
+      border: 1px solid rgba(0,0,0,0.03);
+    }
+
+    h1 { font-size: 2.5rem; font-weight: 800; text-align: center; margin-bottom: 0.5rem; color: #0f172a; }
+    .last-updated { text-align: center; color: var(--text-muted); font-size: 0.9rem; margin-bottom: 3rem; }
+
+    h2 { margin-top: 2.5rem; font-size: 1.35rem; color: #0f172a; border-left: 4px solid var(--primary); padding-left: 1rem; }
+    p { margin-top: 1rem; color: #334155; }
+    ul { margin: 1rem 0 1rem 1.5rem; color: #334155; }
+    li { margin-bottom: 0.5rem; }
+
+    .highlight-box {
+      background: #f1f5ff;
+      border: 1px solid #e0e7ff;
+      padding: 1.5rem;
+      border-radius: 16px;
+      margin: 1.5rem 0;
+      font-weight: 500;
+    }
+
+    footer { background: #0f172a; color: #94a3b8; padding: 60px 20px; text-align: center; margin-top: 100px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Uni Companion</h1>
+  <nav>
+    <a href="index.html#features">Features</a>
+    <a href="index.html#download">Download</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+</header>
+
+<div class="content-container">
+  <div class="policy-card">
+    <h1>Privacy Policy</h1>
+    <p class="last-updated">Last Updated: March 2026</p>
+
+    <h2>1. Introduction</h2>
+    <p>Welcome to <strong>Uni Companion</strong>. We are committed to protecting your privacy and ensuring transparency in how your data is handled within our academic management platform.</p>
+
+    <div class="highlight-box">
+      We do not collect or store personally identifiable information (PII) such as your name, email address, or phone number on our servers.
+    </div>
+
+    <h2>2. User Data Management</h2>
+    <p>The application stores the following data exclusively on your local device:</p>
+    <ul>
+      <li>Academic GPA metrics (courses, grades, credits)</li>
+      <li>Lecture schedules and daily routines</li>
+      <li>Notes, reminders, and calendar events</li>
+      <li>Uploaded academic files (PDF, Excel, JSON)</li>
+    </ul>
+
+    <h2>3. Local File Processing</h2>
+    <p>All file processing, including schedule imports, occurs locally on your hardware. No files are ever transmitted to external servers.</p>
+
+    <h2>4. Analytics & Performance</h2>
+    <p>We utilize Firebase Analytics to monitor app performance and stability. This includes technical device data and anonymized usage behavior to help us improve the user experience.</p>
+
+    <h2>5. Data Storage & Security</h2>
+    <p>By keeping your data stored locally, we significantly minimize security risks. You retain full ownership and can delete all application data at any time via the internal settings menu.</p>
+
+    <h2>6. Contact</h2>
+    <p>For inquiries regarding this policy, please reach out at: <strong>abdulraheem3598@gmail.com</strong>.</p>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 Uni Companion. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
